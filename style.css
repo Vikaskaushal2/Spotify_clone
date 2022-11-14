@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: black;
+     display: flex;
+     justify-content: space-between;
+}
+header .logo a img{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 161px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+    
+
+.navigation{
+    margin-top: 13px;
+    margin-right: 120px;
+    font-size: 15px;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+    width: 560px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.section1{
+    /* border: 2px solid red; */
+    height: 580px;
+    background-image: url("images/bubbles-dktp.svg"), linear-gradient(rgb(108, 14, 224),rgb(240, 55, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section1 .img1{
+    height: 100%;
+    width: 350px;
+    /* border: 2px solid green; */
+    margin-left: 200px;
+
+   
+}
+.img1 img{
+     padding-top: 65px; 
+   width: 320px;
+   height:590px ;
+   padding-left: 20px;
+}
+
+.section1 .contentsection1{
+    height: 60% ;
+    width: 600px;
+    margin-top: 136px;
+    margin-right: 95px;
+    /* border: 2px solid green; */
+}
+.contentsection1 h1{
+    color: white;
+    font-size: 62px;
+    padding-bottom: 30px;
+}
+.contentsection1 .getbutton{
+    
+    background-color: white;
+    border-radius: 30px;
+    height: 46px;
+    width: 212px;
+    padding-top: 10px;
+    transition-property: all;
+    
+}
+.getbutton a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+}
+.getbutton:hover{
+    transform: scale(1.1);
+}
+.heading1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px;
+}
+.section2{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 1150px;
+    margin: auto;
+}
+.section2 .card{
+    height: 450px ;
+    width: 280px;
+    /* border: 2px solid green; */
+    margin-top: 30px;   
+}
+.card .cardimg{
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 260px;
+    margin: auto;
+}
+.card .contentsection2{
+    /* border: 2px solid green; */
+    height: 250px;
+    width:280px ;
+}
+.cardimg img{
+    margin-left: 40px;
+}
+.contentsection2 h2{
+    text-align: center;
+    margin: 23px;
+
+}
+.contentsection2 p{
+    text-align: center;
+    font-size: 20px;
+    width: 254px;
+    margin: auto;
+    /* border: 2px solid yellow; */
+}
+.section3{
+    height: 400px;
+    /* border: 2px solid black; */
+     background-image: linear-gradient(rgb(108, 14, 224),rgb(240, 55, 166)); 
+     display: flex;
+}
+.section3 .contentsection3{
+    font-size: 30px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+}
+.section4{
+    height: 480px;
+    width: 900px;
+    /* border: 2px solid blue;  */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.section4 .lists summary{
+  font-size: 20px; 
+  border-bottom: 1px solid #a9a1a138; 
+  margin: 17px;
+  padding: 25px;
+  font-weight: bolder;
+}
+.section4 .lists details div{
+    margin: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-bottom: 1px solid #a9a1a138;
+    font-weight: bold;
+}
+.section4 .lists summary:hover{
+    background-color: #a9a1a138;
+    cursor: pointer;
+}
+.section5{
+margin-top: 20px;
+height: 400px;
+/* border: 2px solid black;  */
+ background-image: url("/images/bubbles-dktp.svg"),linear-gradient(rgb(108, 14, 224),rgb(240, 55, 166)); 
+ display: flex;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100%;
+ justify-content: center;
+}
+.contentsection5{
+   margin-top: 150px;
+
+}
+.contentsection5 h1{
+    font-size: 82px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contentsection5 a{
+    background-color: white;
+    border-radius: 30px;
+    height: 46px;
+    width: 212px;
+    padding-top: 10px;
+    transition-property: all;
+    margin: 0px 223px;
+}
+footer{
+    height: 540px;
+    background-color: black;
+}
+
+   
+
+
+
+
+
